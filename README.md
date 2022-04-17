@@ -1,1 +1,1 @@
-# Replication-of-SafeDrug
+# Replication of SafeDrug Model for Drug Recommendation
