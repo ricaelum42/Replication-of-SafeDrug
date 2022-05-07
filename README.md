@@ -26,7 +26,7 @@ x Table of results (no need to include additional experiments, but main reproduc
 
 This repo is a replication of user `ycq091044`'s repo: [Data and Code for IJCAI'21 paper - **SafeDrug**](https://github.com/ycq091044/SafeDrug)
 
-### Package Dependency
+## Package Dependency
 - rdkit conda environment
 ```python
 conda create -c conda-forge -n SafeDrug  rdkit
@@ -38,17 +38,15 @@ conda activate SafeDrug
 pip install scikit-learn
 pip install dill
 pip install dnc
-```
 
-```python
 pip install torch
 ```
 
-### Data Processing
+## Data
 Preprocessed data is available for use at [data/output](https://github.com/ricaelum42/Replication-of-SafeDrug/tree/main/data/output)
 
 ## Replicated Code
-[replicated SafeDrug](https://github.com/ricaelum42/Replication-of-SafeDrug/blob/main/code/SafeDrug.ipynb) can be ran as `ipynb` on `Google Colab`
+[Replication-of-SafeDrug](https://github.com/ricaelum42/Replication-of-SafeDrug/blob/main/code/SafeDrug.ipynb) can be ran as `ipynb` on `Google Colab`
 - Select `Open in Colab` in the `ipynb` file
 - Change `Hardware accelerator` to `GPU` in `Runtime` -> `Change runtime type`
 - Select `Runtime`->`Restart and run all`
@@ -83,7 +81,7 @@ Select `Runtime`->`Restart and run all`
 | GAMENet | 0.08080 ± 0.0030 | 0.5066 ± 0.0161 |
 
 
-- **SafeDrug**: code/saved/SafeDrug/](https://github.com/ricaelum42/Replication-of-SafeDrug/tree/main/code/saved/SafeDrug)
+- **SafeDrug**: [code/saved/SafeDrug](https://github.com/ricaelum42/Replication-of-SafeDrug/tree/main/code/saved/SafeDrug)
 - **LR**: [baseline/lr/output_files](https://github.com/ricaelum42/Replication-of-SafeDrug/tree/main/baseline/lr/output_files)
 - **RETAIN**: [baseline/retain/output_files](https://github.com/ricaelum42/Replication-of-SafeDrug/tree/main/baseline/retain/output_files)
 - **LEAP**: [baseline/leap/output_files](https://github.com/ricaelum42/Replication-of-SafeDrug/tree/main/baseline/leap/output_files)
