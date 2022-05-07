@@ -46,15 +46,15 @@ pip install torch
 The following data are used in the replication work. Note that due to data privacy issue we are not able to share the MIMIC-III dataset in Github. If needed please request for access via https://physionet.org/content/mimiciii/1.4/
 To run the code, the ```data/input``` folder should contain the following files:
 - MIMIC-III datasets for patient information
-* PRESCRIPTIONS.csv: Consists of medications ordered for each research subject
-* DIAGNOSES\_ICD.csv: Consists of ICD9 diagnosis codes for each research subject
-* ROCEDURES\_ICD.csv: Consists of ICD9 procedure codes for each research subject
+** PRESCRIPTIONS.csv: Consists of medications ordered for each research subject
+** DIAGNOSES\_ICD.csv: Consists of ICD9 diagnosis codes for each research subject
+** ROCEDURES\_ICD.csv: Consists of ICD9 procedure codes for each research subject
 - Other datasets for drug information can be directly obtains from the original repository
-* RXCUI2atc4.csv: A mapping file that maps from RSCUI code to ATC 4th level code
-* drug-atc.csv: A mapping file that maps from CID code to ATC code
-* rxnorm2RXCUI.txt: A mapping file that maps from RxNorm code to RXCUI code
-* drugbank_drugs_info.csv: A mapping file that maps from drug names to drug SMILES string.
-* drug-DDI.csv: Contains DDI information for each pair of CID
+** RXCUI2atc4.csv: A mapping file that maps from RSCUI code to ATC 4th level code
+** drug-atc.csv: A mapping file that maps from CID code to ATC code
+** rxnorm2RXCUI.txt: A mapping file that maps from RxNorm code to RXCUI code
+** drugbank_drugs_info.csv: A mapping file that maps from drug names to drug SMILES string.
+** drug-DDI.csv: Contains DDI information for each pair of CID
 
 We used the data preprocessing code provided by the author to obtain preprocessed data.
 Preprocessed data is available for use at [data/output](https://github.com/ricaelum42/Replication-of-SafeDrug/tree/main/data/output)
