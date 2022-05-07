@@ -49,7 +49,7 @@ To run the code, the ```data/input``` folder should contain the following files:
     - PRESCRIPTIONS.csv: Consists of medications ordered for each research subject
     - DIAGNOSES\_ICD.csv: Consists of ICD9 diagnosis codes for each research subject
     - ROCEDURES\_ICD.csv: Consists of ICD9 procedure codes for each research subject
-- Other datasets for drug information can be directly obtains from the original repository
+- Other datasets for drug information can be directly obtains from the author's repository
     - RXCUI2atc4.csv: A mapping file that maps from RSCUI code to ATC 4th level code
     - drug-atc.csv: A mapping file that maps from CID code to ATC code
     - rxnorm2RXCUI.txt: A mapping file that maps from RxNorm code to RXCUI code
@@ -57,6 +57,11 @@ To run the code, the ```data/input``` folder should contain the following files:
     - drug-DDI.csv: Contains DDI information for each pair of CID
 
 We used the data preprocessing code provided by the author to obtain preprocessed data.
+Download the processing.py file from the author's repository [SafeDrug/data](https://github.com/ycq091044/SafeDrug/tree/main/data)
+Run the processing code to get preprocessed data
+```
+python processing.py
+```
 Preprocessed data is available for use at [data/output](https://github.com/ricaelum42/Replication-of-SafeDrug/tree/main/data/output)
 
 ## Replicated Code
