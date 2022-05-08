@@ -56,8 +56,8 @@ To run the code, the ```data/input``` folder should contain the following files:
     - drugbank_drugs_info.csv: A mapping file that maps from drug names to drug SMILES string.
     - drug-DDI.csv: Contains DDI information for each pair of CID
 
-We used the data preprocessing code provided by the author to obtain preprocessed data.
-Download the processing.py file from the author's repository [SafeDrug/data](https://github.com/ycq091044/SafeDrug/tree/main/data)
+We used the existing data preprocessing code provided by the author to obtain preprocessed data.
+Download the processing.py file from the author's repository [SafeDrug/data](https://github.com/ycq091044/SafeDrug/tree/main/data).
 Run the processing code to get preprocessed data
 ```
 python processing.py
