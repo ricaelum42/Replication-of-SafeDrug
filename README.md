@@ -89,17 +89,27 @@ Select `Open in Colab` in the `ipynb` file
 \
 Select `Runtime`->`Restart and run all`
 
-## Replicated Performance Results
+## Results
+### Replicated Model Performance
 
 | Model | DDI | Jaccard |
 | :---: | :---: | :---: |
-| SafeDrug | 0.06184 ± 0.0022 | 0.5017 ± 0.0150 |
-| LR | 0.0724 | 0.4543 |
-| RETAIN | 0.08157 ± 0.0021| 0.4770 ± 0.0194 |
-| LEAP | 0.06620 ± 0.0043 | 0.4392 ± 0.0094 |
-| GAMENet | 0.08080 ± 0.0030 | 0.5066 ± 0.0161 |
+| SafeDrug | 0.0619 | 0.5111 |
+| LR | 0.0777 | 0.4903 |
+| RETAIN |0.0800 | 0.4857 |
+| LEAP | 0.0729 | 0.4496 |
+| GAMENet | 0.0751 | 0.5145 |
 
+### Replicated Model Efficiency
 
+| Model | # of Param. | Train Time | Test Time |
+| :---: | :---: | :---: | :---: |
+| SafeDrug | 366,122 | 239.16s /Epoch | 11.77s |
+| RETAIN | 285,489 | 37.41 /Epoch | 7.73s |
+| LEAP | 428,403 | 278.32s /Epoch | 29.21s |
+| GAMENet | 444,209 | 114.25s /Epoch | 15.07s |
+
+### Replicated Model Output Files
 - **SafeDrug**: [code/saved/SafeDrug](https://github.com/ricaelum42/Replication-of-SafeDrug/tree/main/code/saved/SafeDrug)
 - **LR**: [baseline/lr/output_files](https://github.com/ricaelum42/Replication-of-SafeDrug/tree/main/baseline/lr/output_files)
 - **RETAIN**: [baseline/retain/output_files](https://github.com/ricaelum42/Replication-of-SafeDrug/tree/main/baseline/retain/output_files)
