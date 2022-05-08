@@ -49,7 +49,7 @@ To run the code, the ```data/input``` folder should contain the following files:
     - PRESCRIPTIONS.csv: Consists of medications ordered for each research subject
     - DIAGNOSES\_ICD.csv: Consists of ICD9 diagnosis codes for each research subject
     - ROCEDURES\_ICD.csv: Consists of ICD9 procedure codes for each research subject
-- Other datasets for drug information can be directly obtains from the author's repository
+- Other datasets for drug information can be directly obtained from the author's repository
     - RXCUI2atc4.csv: A mapping file that maps from RSCUI code to ATC 4th level code
     - drug-atc.csv: A mapping file that maps from CID code to ATC code
     - rxnorm2RXCUI.txt: A mapping file that maps from RxNorm code to RXCUI code
