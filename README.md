@@ -62,7 +62,7 @@ Run the processing code to get preprocessed data
 ```
 python processing.py
 ```
-Preprocessed data is available for use at [data/output](https://github.com/ricaelum42/Replication-of-SafeDrug/tree/main/data/output)
+Our preprocessed data is available for use at [data/output](https://github.com/ricaelum42/Replication-of-SafeDrug/tree/main/data/output)
 
 ## Replicated Code
 [Replication-of-SafeDrug](https://github.com/ricaelum42/Replication-of-SafeDrug/blob/main/code/SafeDrug.ipynb) can be ran as `ipynb` on `Google Colab`
